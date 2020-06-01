@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="scoreboard">
+        <p class="x">Player (X):  <span id="player1" >0</span></p>
+        <p class="x">Tie:  <span id="tie" >0</span></p>
+        <p class="o">Player (O):  <span id="player2" >0</span></p>
+    </div>
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="scoreboard">
+        <button id="reset">Reset Game</button>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div>
+        <button id="restartButton">Play again</button>
+    </div>
+    <div class="made">
+        <p>< / > with ♡ by <a href="https://mustafizkaifee.herokuapp.com/"> Mustafiz Kaifee</a> </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
